@@ -40,8 +40,19 @@
   </head>
   <body>
     <header class="header">
-      <a href="#">
-        <img class="logo" alt="Trueseals logo" src="img/logo-2.png" />
+      <a href="/">
+        <img
+          class="logo"
+          alt="Trueseals logo"
+          src="img/logo.png"
+          style="height: 9rem;"
+        />
+        <img
+          class="logo"
+          alt="Trueseals logo"
+          src="img/Logo_text.png"
+          style="height: 6rem;"
+        />
       </a>
 
       <nav class="main-nav">
@@ -68,7 +79,25 @@
     </header>
 
     <main>
-      <section class="section-hero">
+      <section
+        class="section-hero"
+        style="position: relative; background-color: rgba(255, 255, 255, 0.4);"
+      >
+        <video
+          src="./img/Pouring water in a glass.mp4"
+          autoplay
+          muted
+          style="
+            position: absolute;
+            width: 100vw;
+            z-index: -1;
+            top: 0;
+            left: -96px;
+            width: 100vw;
+            height: 100%;
+            object-fit: cover;
+          "
+        ></video>
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
@@ -107,7 +136,12 @@
       <div class="container grid grid--footer">
         <div class="logo-col">
           <a href="#" class="footer-logo">
-            <img class="logo" alt="Trueseals logo" src="img/logo.png" />
+            <img
+              class="logo"
+              alt="Trueseals logo"
+              src="img/logo.png"
+              style="height: 14rem;"
+            />
           </a>
 
           <ul class="social-links">
